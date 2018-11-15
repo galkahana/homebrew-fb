@@ -3,7 +3,7 @@ class Fbsimctl < Formula
   homepage "https://github.com/facebook/FBSimulatorControl/fbsimctl/README.md"
   url "https://github.com/facebook/FBSimulatorControl/tarball/v0.4.0"
   sha256 "4a8bb8aed15f756aeb57e4a1f8724e40a3dfaa27740ae1644021386ab64bd9fb"
-  head "https://github.com/facebook/FBSimulatorControl.git"
+  head "https://github.com/facebook/FBSimulatorControl.git", :revision =>  "96c8320e209e582c5ad1c66071cb51ebcb2760f4"
 
   depends_on "carthage"
   depends_on :xcode => ["8.2", :build]
